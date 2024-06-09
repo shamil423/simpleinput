@@ -1,0 +1,34 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #50A3A2;
+    color: white;
+    font-family: "poppins",sans-serif;
+    font-weight: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    margin: 10% auto;
+    padding: 3rem 0;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.container h1{
+    font-size: 40px;
+    font-family: "poppins",sans-serif;
+    font-weight: 100;
+}
+input{
+    border: 1px solid rgba(252,252,252,0.4);
+    width: 250px;
+}
